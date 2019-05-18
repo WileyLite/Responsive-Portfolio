@@ -1,0 +1,110 @@
+body {
+    background-image: url(../images/concrete-texture.png);
+    font-family: 'Raleway';
+    margin: 0 auto;
+    width: 960px
+}
+
+.blurb-one {
+    font-weight: 500;
+}
+
+.blurb-two {
+    font-size: 20px;
+}
+
+ 
+ header,hr {
+     width: 960px;
+     text-align: center;
+     background: #e5e6e5;
+     color: #363636;
+ }
+ 
+ header::after {
+     content: '';
+     display: table;
+     clear: both;
+ }
+ 
+ .About-Me {
+     float: left;
+     padding: 10px 0;
+     /* margin-left: 30px; */
+     background: #04a783;
+     color: #ececee
+ }
+ 
+ nav {
+     float: right;
+     color: #ececee;
+     margin-right: 30px;
+ }
+ 
+ nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ 
+ nav li {
+     display: inline-block;
+     margin-left: 70px;
+     padding-top: 50px;
+ }
+ 
+ nav a {
+     color: #cccccc;
+     text-decoration: none;
+     font-size: 14px
+ }
+ 
+ nav a:hover {
+     color: #000000
+ }
+
+ .main-container {
+     background-color: #cccccc;
+    width: 960px;
+    margin: 0;
+}
+
+ /* body {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.contact-form {
+    text-align: center;
+    background-image: -moz-element()
+} */
+
+/* .main-bio {
+    background-image: url(..images\concrete-texture.png);
+    padding: 100px;
+    margin: 100px;
+    width: 960px;
+    line-height: 150%;
+    background-repeat: 
+    } */
+
+    .bio, .main-bio {
+        background: #ececee;
+        float: left;
+    }
+
+footer {
+        padding: 30px 0;
+        clear: both;
+        font-size: 12px;
+        color: #ffffff;
+        color: #cccccc;
+        text-align: center;
+        background: #666666;
+        border-top: 8px solid #4aaaa5;
+        height: 50px;
+      }
+      
